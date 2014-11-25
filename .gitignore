@@ -1,0 +1,16 @@
+
+*.prefs
+
+ccbang-admin/.classpath
+
+ccbang-admin/.project
+
+ccbang-app/.project
+
+ccbang-app/.classpath
+
+ccbang-base/.classpath
+
+ccbang-base/.project
+
+*.class
