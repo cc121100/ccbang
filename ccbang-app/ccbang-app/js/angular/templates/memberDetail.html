@@ -1,0 +1,40 @@
+<section ng-controller="memberDetailCtrl">
+    <div class="container">
+		<div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+				<h2>{{memberDetail.name}}</h2>
+                <hr>            	
+            </div>
+        </div>    	
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                
+                
+                <img src="{{memberDetail.imgSrc}}" class="img-responsive img-centered" alt="">
+                <p>{{memberDetail.description}}</p>
+                
+            </div>
+            
+        </div>
+
+		<div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center"> 
+				<ul class="list-inline item-details">
+                    <li>姓名:
+                        <strong>{{memberDetail.name}}
+                        </strong>
+                    </li>
+                    <li>性别:
+                        <strong>{{memberDetail.sex}}
+                        </strong>
+                    </li>
+                    <li>外号:
+                        <strong>{{memberDetail.nickName}}
+                        </strong>
+                    </li>
+                </ul>
+                <a href="#/member" class="btn btn-default" ><i class="fa fa-times"></i> Close</a>            	
+            </div>
+        </div>       
+    </div>
+</section>

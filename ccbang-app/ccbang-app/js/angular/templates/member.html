@@ -1,0 +1,23 @@
+<section id="portfolio" ng-controller="memberCtrl">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>成员简介</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 portfolio-item" ng-repeat="m in members">
+                <a href="#/memberDetail/{{m.id}}" class="portfolio-link">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="{{m.imgSrc}}" class="img-responsive" alt="">
+                </a>
+            </div>
+            
+        </div>
+    </div>
+</section>

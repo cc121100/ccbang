@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cc.ccbang.base.dao.JokeDAO">
+
+	<sql id="all_column">
+		id,content,time,
+		version,created_by,created_dt,updated_by,updated_dt 
+	</sql>
+            
+         <!-- <insert id="insertUser" parameterType="User" keyProperty="id">
+             insert into days_user( 
+         state,
+         nickname)
+         values
+         (       
+         #{state},
+         #{nickname})
+         </insert> -->
+         
+	<!-- <insert id="insert" parameterType="Address" keyProperty="addrId">
+		<selectKey ></selectKey>
+		INSERT INTO ADDRESSES 
+		(STREET,CITY,STATE,ZIP,COUNTRY) VALUES 
+ 		(#{street},#{city},#{state},#{zip},#{country})
+	</insert> -->
+	
+	<!-- <select id="getById" resultMap="AddressResult">
+		select distinct 
+		<include refid="all_column" /> 
+		from tbl_member 
+		<if test="whereClause != null">
+			where
+		</if>
+	</select> -->
+	
+	<!-- <select id="queryByPage" resultMap="base_member_result">
+		select * from ADDRESSES where addr_id = #{addrId}
+	</select> -->
+	
+	<insert id="insert" parameterType="Joke" keyProperty="id">
+		INSERT INTO tbl_joke 
+		(<include refid="all_column" /> ) VALUES 
+ 		(#{id},#{content},#{time},#{version},#{createdBy},#{createdDt},#{updatedBy},#{updatedDt})
+	</insert>
+	
+	<select id="getAll" resultMap="base_result">
+		select distinct
+		<include refid="all_column" /> 
+		from tbl_joke
+		order by time desc
+	</select>
+	
+	<select id="queryByPage" resultMap="base_result">
+		select
+		<include refid="all_column" /> 
+		from tbl_joke
+		<if test="q.where != null">
+			<where>
+				<if test="q.where.content != null">
+					content like #{q.where.content}
+				</if>
+			</where>
+			<if test="q.orderBy != null" >
+		      order by ${q.orderBy} 
+		    </if>
+		    <if test="q.orderDir != null" >
+		       ${q.orderDir}
+		    </if>
+		</if>
+	</select>
+	
+	<select id="countByPage" resultType="int">
+		select count(*)
+		from tbl_joke
+		<if test="q.where != null">
+			<where>
+				<if test="q.where.content != null">
+					content like #{q.where.content}
+				</if>
+			</where>
+		</if>
+	</select>
+	
+	<resultMap type="Joke" id="base_result">
+  		<id property="id" column="id" jdbcType="CHAR"/>
+		<result property="content" column="content" jdbcType="VARCHAR"/>
+		<result property="time" column="time" jdbcType="TIMESTAMP"/>
+		<result column="version" property="version" jdbcType="INTEGER" />
+	    <result column="created_by" property="createdBy" jdbcType="VARCHAR" />
+	    <result column="created_dt" property="createdDt" jdbcType="TIMESTAMP" />
+	    <result column="updated_by" property="updatedBy" jdbcType="VARCHAR" />
+	    <result column="updated_dt" property="updatedDt" jdbcType="TIMESTAMP" />
+  	</resultMap>
+          
+</mapper>

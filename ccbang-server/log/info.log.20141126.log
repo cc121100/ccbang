@@ -1,0 +1,687 @@
+[ INFO][  0][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 14:56:55 663]Root WebApplicationContext: initialization started
+[ INFO][111][org.springframework.web.context.support.XmlWebApplicationContext][localhost-startStop-1][2014-11-26 14:56:55 774]Refreshing Root WebApplicationContext: startup date [Wed Nov 26 14:56:55 SGT 2014]; root of context hierarchy
+[ INFO][182][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 14:56:55 845]Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+[ INFO][337][org.springframework.beans.factory.support.DefaultListableBeanFactory][localhost-startStop-1][2014-11-26 14:56:56 000]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1ac890e2: defining beans []; root of factory hierarchy
+[ INFO][342][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 14:56:56 005]Root WebApplicationContext: initialization completed in 341 ms
+[ INFO][434][org.springframework.web.servlet.DispatcherServlet][localhost-startStop-1][2014-11-26 14:56:56 097]FrameworkServlet 'dispatcher': initialization started
+[ INFO][438][org.springframework.web.context.support.XmlWebApplicationContext][localhost-startStop-1][2014-11-26 14:56:56 101]Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Nov 26 14:56:56 SGT 2014]; parent: Root WebApplicationContext
+[ INFO][440][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 14:56:56 103]Loading XML bean definitions from class path resource [spring/dispatcher-servlet.xml]
+[ INFO][633][org.springframework.beans.factory.support.DefaultListableBeanFactory][localhost-startStop-1][2014-11-26 14:56:56 296]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@51c340ec: defining beans [mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2,org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#3,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@1ac890e2
+[ INFO][1232][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 14:56:56 895]Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[ INFO][1235][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 14:56:56 898]Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+[ INFO][1237][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 14:56:56 900]Mapped URL path [/img/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+[ INFO][1244][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 14:56:56 907]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[ INFO][1268][org.springframework.web.servlet.DispatcherServlet][localhost-startStop-1][2014-11-26 14:56:56 931]FrameworkServlet 'dispatcher': initialization completed in 834 ms
+[ INFO][  0][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 15:01:22 201]Root WebApplicationContext: initialization started
+[ INFO][ 92][org.springframework.web.context.support.XmlWebApplicationContext][localhost-startStop-1][2014-11-26 15:01:22 293]Refreshing Root WebApplicationContext: startup date [Wed Nov 26 15:01:22 SGT 2014]; root of context hierarchy
+[ INFO][145][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 15:01:22 346]Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+[ INFO][263][org.springframework.beans.factory.support.DefaultListableBeanFactory][localhost-startStop-1][2014-11-26 15:01:22 464]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@79853412: defining beans []; root of factory hierarchy
+[ INFO][266][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 15:01:22 467]Root WebApplicationContext: initialization completed in 265 ms
+[ INFO][339][org.springframework.web.servlet.DispatcherServlet][localhost-startStop-1][2014-11-26 15:01:22 540]FrameworkServlet 'dispatcher': initialization started
+[ INFO][342][org.springframework.web.context.support.XmlWebApplicationContext][localhost-startStop-1][2014-11-26 15:01:22 543]Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Nov 26 15:01:22 SGT 2014]; parent: Root WebApplicationContext
+[ INFO][343][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 15:01:22 544]Loading XML bean definitions from class path resource [spring/dispatcher-servlet.xml]
+[ INFO][510][org.springframework.beans.factory.support.DefaultListableBeanFactory][localhost-startStop-1][2014-11-26 15:01:22 711]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@66373265: defining beans [mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#3,org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#4,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@79853412
+[ INFO][992][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:01:23 193]Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[ INFO][995][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:01:23 196]Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+[ INFO][997][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:01:23 198]Mapped URL path [/img/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+[ INFO][1000][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:01:23 201]Mapped URL path [/font-awesome/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+[ INFO][1007][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:01:23 208]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[ INFO][1032][org.springframework.web.servlet.DispatcherServlet][localhost-startStop-1][2014-11-26 15:01:23 233]FrameworkServlet 'dispatcher': initialization completed in 693 ms
+[ INFO][  0][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 15:04:50 668]Root WebApplicationContext: initialization started
+[ INFO][ 94][org.springframework.web.context.support.XmlWebApplicationContext][localhost-startStop-1][2014-11-26 15:04:50 762]Refreshing Root WebApplicationContext: startup date [Wed Nov 26 15:04:50 SGT 2014]; root of context hierarchy
+[ INFO][158][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 15:04:50 826]Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+[ INFO][270][org.springframework.beans.factory.support.DefaultListableBeanFactory][localhost-startStop-1][2014-11-26 15:04:50 938]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7bf4596a: defining beans []; root of factory hierarchy
+[ INFO][276][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 15:04:50 944]Root WebApplicationContext: initialization completed in 275 ms
+[ INFO][358][org.springframework.web.servlet.DispatcherServlet][localhost-startStop-1][2014-11-26 15:04:51 026]FrameworkServlet 'dispatcher': initialization started
+[ INFO][361][org.springframework.web.context.support.XmlWebApplicationContext][localhost-startStop-1][2014-11-26 15:04:51 029]Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Nov 26 15:04:51 SGT 2014]; parent: Root WebApplicationContext
+[ INFO][363][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 15:04:51 031]Loading XML bean definitions from class path resource [spring/dispatcher-servlet.xml]
+[ INFO][533][org.springframework.beans.factory.support.DefaultListableBeanFactory][localhost-startStop-1][2014-11-26 15:04:51 201]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3010d003: defining beans [mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#3,org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#4,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@7bf4596a
+[ INFO][1188][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:04:51 856]Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[ INFO][1191][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:04:51 859]Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+[ INFO][1193][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:04:51 861]Mapped URL path [/img/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+[ INFO][1198][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:04:51 866]Mapped URL path [/font-awesome/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+[ INFO][1206][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:04:51 874]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[ INFO][1232][org.springframework.web.servlet.DispatcherServlet][localhost-startStop-1][2014-11-26 15:04:51 900]FrameworkServlet 'dispatcher': initialization completed in 874 ms
+[ INFO][  0][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 15:15:53 172]Root WebApplicationContext: initialization started
+[ INFO][ 88][org.springframework.web.context.support.XmlWebApplicationContext][localhost-startStop-1][2014-11-26 15:15:53 260]Refreshing Root WebApplicationContext: startup date [Wed Nov 26 15:15:53 SGT 2014]; root of context hierarchy
+[ INFO][147][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 15:15:53 319]Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+[ INFO][259][org.springframework.beans.factory.support.DefaultListableBeanFactory][localhost-startStop-1][2014-11-26 15:15:53 431]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@671a7db9: defining beans []; root of factory hierarchy
+[ INFO][263][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 15:15:53 435]Root WebApplicationContext: initialization completed in 262 ms
+[ INFO][336][org.springframework.web.servlet.DispatcherServlet][localhost-startStop-1][2014-11-26 15:15:53 508]FrameworkServlet 'dispatcher': initialization started
+[ INFO][339][org.springframework.web.context.support.XmlWebApplicationContext][localhost-startStop-1][2014-11-26 15:15:53 511]Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Nov 26 15:15:53 SGT 2014]; parent: Root WebApplicationContext
+[ INFO][341][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 15:15:53 513]Loading XML bean definitions from class path resource [spring/dispatcher-servlet.xml]
+[ INFO][538][org.springframework.beans.factory.support.DefaultListableBeanFactory][localhost-startStop-1][2014-11-26 15:15:53 710]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4938cc4f: defining beans [mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,indexController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#3,org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#4,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@671a7db9
+[ INFO][644][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][localhost-startStop-1][2014-11-26 15:15:53 816]Mapped "{[/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String cc.ccbang.admin.controller.IndexController.toLogin()
+[ INFO][1067][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:15:54 239]Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[ INFO][1070][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:15:54 242]Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+[ INFO][1072][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:15:54 244]Mapped URL path [/img/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+[ INFO][1075][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:15:54 247]Mapped URL path [/font-awesome/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+[ INFO][1080][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:15:54 252]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[ INFO][1103][org.springframework.web.servlet.DispatcherServlet][localhost-startStop-1][2014-11-26 15:15:54 275]FrameworkServlet 'dispatcher': initialization completed in 767 ms
+[ INFO][  0][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 15:16:27 452]Root WebApplicationContext: initialization started
+[ INFO][128][org.springframework.web.context.support.XmlWebApplicationContext][localhost-startStop-1][2014-11-26 15:16:27 580]Refreshing Root WebApplicationContext: startup date [Wed Nov 26 15:16:27 SGT 2014]; root of context hierarchy
+[ INFO][189][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 15:16:27 641]Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+[ INFO][324][org.springframework.beans.factory.support.DefaultListableBeanFactory][localhost-startStop-1][2014-11-26 15:16:27 776]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@60ab1380: defining beans []; root of factory hierarchy
+[ INFO][331][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 15:16:27 783]Root WebApplicationContext: initialization completed in 330 ms
+[ INFO][425][org.springframework.web.servlet.DispatcherServlet][localhost-startStop-1][2014-11-26 15:16:27 877]FrameworkServlet 'dispatcher': initialization started
+[ INFO][429][org.springframework.web.context.support.XmlWebApplicationContext][localhost-startStop-1][2014-11-26 15:16:27 881]Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Nov 26 15:16:27 SGT 2014]; parent: Root WebApplicationContext
+[ INFO][432][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 15:16:27 884]Loading XML bean definitions from class path resource [spring/dispatcher-servlet.xml]
+[ INFO][659][org.springframework.beans.factory.support.DefaultListableBeanFactory][localhost-startStop-1][2014-11-26 15:16:28 111]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3862e08: defining beans [mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,indexController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#3,org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#4,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@60ab1380
+[ INFO][778][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][localhost-startStop-1][2014-11-26 15:16:28 230]Mapped "{[/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String cc.ccbang.admin.controller.IndexController.toLogin()
+[ INFO][1293][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:16:28 745]Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[ INFO][1296][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:16:28 748]Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+[ INFO][1299][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:16:28 751]Mapped URL path [/img/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+[ INFO][1303][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:16:28 755]Mapped URL path [/font-awesome/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+[ INFO][1311][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:16:28 763]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[ INFO][1339][org.springframework.web.servlet.DispatcherServlet][localhost-startStop-1][2014-11-26 15:16:28 791]FrameworkServlet 'dispatcher': initialization completed in 914 ms
+[ INFO][  0][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 15:26:03 292]Root WebApplicationContext: initialization started
+[ INFO][ 89][org.springframework.web.context.support.XmlWebApplicationContext][localhost-startStop-1][2014-11-26 15:26:03 381]Refreshing Root WebApplicationContext: startup date [Wed Nov 26 15:26:03 SGT 2014]; root of context hierarchy
+[ INFO][145][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 15:26:03 437]Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+[ INFO][273][org.springframework.beans.factory.support.DefaultListableBeanFactory][localhost-startStop-1][2014-11-26 15:26:03 565]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4667820f: defining beans []; root of factory hierarchy
+[ INFO][278][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 15:26:03 570]Root WebApplicationContext: initialization completed in 277 ms
+[ INFO][366][org.springframework.web.servlet.DispatcherServlet][localhost-startStop-1][2014-11-26 15:26:03 658]FrameworkServlet 'dispatcher': initialization started
+[ INFO][370][org.springframework.web.context.support.XmlWebApplicationContext][localhost-startStop-1][2014-11-26 15:26:03 662]Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Nov 26 15:26:03 SGT 2014]; parent: Root WebApplicationContext
+[ INFO][372][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 15:26:03 664]Loading XML bean definitions from class path resource [spring/dispatcher-servlet.xml]
+[ INFO][564][org.springframework.beans.factory.support.DefaultListableBeanFactory][localhost-startStop-1][2014-11-26 15:26:03 856]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4cd0924a: defining beans [mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,indexController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#3,org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#4,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@4667820f
+[ INFO][658][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][localhost-startStop-1][2014-11-26 15:26:03 950]Mapped "{[/index],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String cc.ccbang.admin.controller.IndexController.toIndex()
+[ INFO][658][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][localhost-startStop-1][2014-11-26 15:26:03 950]Mapped "{[/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String cc.ccbang.admin.controller.IndexController.toLogin()
+[ INFO][1128][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:26:04 420]Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[ INFO][1131][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:26:04 423]Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+[ INFO][1134][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:26:04 426]Mapped URL path [/img/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+[ INFO][1136][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:26:04 428]Mapped URL path [/font-awesome/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+[ INFO][1142][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 15:26:04 434]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[ INFO][1171][org.springframework.web.servlet.DispatcherServlet][localhost-startStop-1][2014-11-26 15:26:04 463]FrameworkServlet 'dispatcher': initialization completed in 805 ms
+[ INFO][  0][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 15:55:44 030]Root WebApplicationContext: initialization started
+[ INFO][ 86][org.springframework.web.context.support.XmlWebApplicationContext][localhost-startStop-1][2014-11-26 15:55:44 116]Refreshing Root WebApplicationContext: startup date [Wed Nov 26 15:55:44 SGT 2014]; root of context hierarchy
+[ INFO][133][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 15:55:44 163]Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+[ INFO][221][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 15:55:44 251]Loading XML bean definitions from class path resource [spring/applicationContext-security.xml]
+[ERROR][296][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 15:55:44 326]Context initialization failed
+org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 8 in XML document from class path resource [spring/applicationContext-security.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 82; cvc-elt.1: 找不到元素 'beans' 的声明。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:396)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:451)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4791)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 82; cvc-elt.1: 找不到元素 'beans' 的声明。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:437)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:325)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1906)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(XMLSchemaValidator.java:746)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:379)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:605)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3138)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:880)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:117)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:75)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:388)
+	... 22 more
+[ INFO][  0][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 20:00:45 634]Root WebApplicationContext: initialization started
+[ INFO][ 68][org.springframework.web.context.support.XmlWebApplicationContext][localhost-startStop-1][2014-11-26 20:00:45 702]Refreshing Root WebApplicationContext: startup date [Wed Nov 26 20:00:45 SGT 2014]; root of context hierarchy
+[ INFO][112][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 20:00:45 746]Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+[ INFO][215][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 20:00:45 849]Loading XML bean definitions from class path resource [spring/applicationContext-security.xml]
+[ERROR][299][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 20:00:45 933]Context initialization failed
+org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 8 in XML document from class path resource [spring/applicationContext-security.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 82; cvc-elt.1: 找不到元素 'beans' 的声明。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:396)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:451)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4791)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 82; cvc-elt.1: 找不到元素 'beans' 的声明。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:437)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:325)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1906)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(XMLSchemaValidator.java:746)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:379)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:605)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3138)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:880)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:117)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:75)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:388)
+	... 22 more
+[ INFO][  0][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 20:05:06 556]Root WebApplicationContext: initialization started
+[ INFO][ 96][org.springframework.web.context.support.XmlWebApplicationContext][localhost-startStop-1][2014-11-26 20:05:06 652]Refreshing Root WebApplicationContext: startup date [Wed Nov 26 20:05:06 SGT 2014]; root of context hierarchy
+[ INFO][171][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 20:05:06 727]Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+[ INFO][265][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 20:05:06 821]Loading XML bean definitions from class path resource [spring/applicationContext-security.xml]
+[ WARN][1556][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 20:05:08 112]Ignored XML validation warning
+org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 84; schema_reference.4: 无法读取方案文档 'http://www.springframework.org/schema/security/spring-security-3.2.5.xsd', 原因为 1) 无法找到文档; 2) 无法读取文档; 3) 文档的根元素不是 <xsd:schema>。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.warning(ErrorHandlerWrapper.java:99)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:433)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:347)
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.reportSchemaErr(XSDHandler.java:4166)
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.reportSchemaWarning(XSDHandler.java:4157)
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.getSchemaDocument1(XSDHandler.java:2490)
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.getSchemaDocument(XSDHandler.java:2187)
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.parseSchema(XSDHandler.java:573)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.loadSchema(XMLSchemaLoader.java:616)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.findSchemaGrammar(XMLSchemaValidator.java:2453)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1772)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(XMLSchemaValidator.java:746)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:379)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:605)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3138)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:880)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:117)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:75)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:388)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:451)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4791)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.FileNotFoundException: http://www.springframework.org/schema/security/spring-security-3.2.5.xsd
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1624)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:637)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:189)
+	at com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaParsingConfig.parse(SchemaParsingConfig.java:582)
+	at com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaParsingConfig.parse(SchemaParsingConfig.java:685)
+	at com.sun.org.apache.xerces.internal.impl.xs.opti.SchemaDOMParser.parse(SchemaDOMParser.java:530)
+	at com.sun.org.apache.xerces.internal.impl.xs.traversers.XSDHandler.getSchemaDocument(XSDHandler.java:2175)
+	... 41 more
+[ERROR][1567][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 20:05:08 123]Context initialization failed
+org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 8 in XML document from class path resource [spring/applicationContext-security.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 84; cvc-elt.1: 找不到元素 'beans' 的声明。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:396)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:451)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4791)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 84; cvc-elt.1: 找不到元素 'beans' 的声明。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:437)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:325)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1906)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(XMLSchemaValidator.java:746)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:379)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:605)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3138)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:880)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:117)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:75)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:388)
+	... 22 more
+[ INFO][  0][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 20:06:51 622]Root WebApplicationContext: initialization started
+[ INFO][108][org.springframework.web.context.support.XmlWebApplicationContext][localhost-startStop-1][2014-11-26 20:06:51 730]Refreshing Root WebApplicationContext: startup date [Wed Nov 26 20:06:51 SGT 2014]; root of context hierarchy
+[ INFO][186][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 20:06:51 808]Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+[ INFO][343][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 20:06:51 965]Loading XML bean definitions from class path resource [spring/applicationContext-security.xml]
+[ERROR][468][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 20:06:52 090]Context initialization failed
+org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 8 in XML document from class path resource [spring/applicationContext-security.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 82; cvc-elt.1: 找不到元素 'beans' 的声明。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:396)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:451)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4791)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 82; cvc-elt.1: 找不到元素 'beans' 的声明。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:437)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:325)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1906)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(XMLSchemaValidator.java:746)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:379)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:605)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3138)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:880)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:117)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:75)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:388)
+	... 22 more
+[ INFO][  0][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 20:07:49 291]Root WebApplicationContext: initialization started
+[ INFO][143][org.springframework.web.context.support.XmlWebApplicationContext][localhost-startStop-1][2014-11-26 20:07:49 434]Refreshing Root WebApplicationContext: startup date [Wed Nov 26 20:07:49 SGT 2014]; root of context hierarchy
+[ INFO][217][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 20:07:49 508]Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+[ INFO][373][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 20:07:49 664]Loading XML bean definitions from class path resource [spring/applicationContext-security.xml]
+[ERROR][489][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 20:07:49 780]Context initialization failed
+org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 8 in XML document from class path resource [spring/applicationContext-security.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 82; cvc-elt.1: 找不到元素 'beans' 的声明。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:396)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:451)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4791)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 82; cvc-elt.1: 找不到元素 'beans' 的声明。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:437)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:325)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1906)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(XMLSchemaValidator.java:746)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:379)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:605)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3138)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:880)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:117)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:75)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:388)
+	... 22 more
+[ INFO][  0][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 20:09:15 056]Root WebApplicationContext: initialization started
+[ INFO][198][org.springframework.web.context.support.XmlWebApplicationContext][localhost-startStop-1][2014-11-26 20:09:15 254]Refreshing Root WebApplicationContext: startup date [Wed Nov 26 20:09:15 SGT 2014]; root of context hierarchy
+[ INFO][311][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 20:09:15 367]Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+[ INFO][451][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 20:09:15 507]Loading XML bean definitions from class path resource [spring/applicationContext-security.xml]
+[ERROR][620][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 20:09:15 676]Context initialization failed
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Failed to import bean definitions from URL location [classpath:spring/applicationContext-security.xml]
+Offending resource: class path resource [spring/applicationContext.xml]; nested exception is org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 8 in XML document from class path resource [spring/applicationContext-security.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 82; cvc-elt.1: 找不到元素 'beans' 的声明。
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:68)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:85)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:76)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.importBeanDefinitionResource(DefaultBeanDefinitionDocumentReader.java:256)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseDefaultElement(DefaultBeanDefinitionDocumentReader.java:207)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:192)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.doRegisterBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:139)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:108)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:493)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:390)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:451)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4791)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 8 in XML document from class path resource [spring/applicationContext-security.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 82; cvc-elt.1: 找不到元素 'beans' 的声明。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:396)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.importBeanDefinitionResource(DefaultBeanDefinitionDocumentReader.java:250)
+	... 28 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 82; cvc-elt.1: 找不到元素 'beans' 的声明。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:437)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:325)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1906)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(XMLSchemaValidator.java:746)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:379)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:605)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3138)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:880)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:117)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:75)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:388)
+	... 33 more
+[ INFO][  0][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 20:11:44 824]Root WebApplicationContext: initialization started
+[ INFO][ 71][org.springframework.web.context.support.XmlWebApplicationContext][localhost-startStop-1][2014-11-26 20:11:44 895]Refreshing Root WebApplicationContext: startup date [Wed Nov 26 20:11:44 SGT 2014]; root of context hierarchy
+[ INFO][113][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 20:11:44 937]Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+[ INFO][200][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 20:11:45 024]Loading XML bean definitions from class path resource [spring/applicationContext-security.xml]
+[ERROR][255][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 20:11:45 079]Context initialization failed
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Failed to import bean definitions from URL location [classpath:spring/applicationContext-security.xml]
+Offending resource: class path resource [spring/applicationContext.xml]; nested exception is org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 8 in XML document from class path resource [spring/applicationContext-security.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 82; cvc-elt.1: 找不到元素 'beans' 的声明。
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:68)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:85)
+	at org.springframework.beans.factory.parsing.ReaderContext.error(ReaderContext.java:76)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.importBeanDefinitionResource(DefaultBeanDefinitionDocumentReader.java:256)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseDefaultElement(DefaultBeanDefinitionDocumentReader.java:207)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:192)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.doRegisterBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:139)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:108)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:493)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:390)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:451)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4791)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 8 in XML document from class path resource [spring/applicationContext-security.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 82; cvc-elt.1: 找不到元素 'beans' 的声明。
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:396)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.importBeanDefinitionResource(DefaultBeanDefinitionDocumentReader.java:250)
+	... 28 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 82; cvc-elt.1: 找不到元素 'beans' 的声明。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:437)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:325)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1906)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(XMLSchemaValidator.java:746)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:379)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:605)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3138)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:880)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:117)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:75)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:388)
+	... 33 more
+[ INFO][  1][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 20:14:17 620]Root WebApplicationContext: initialization started
+[ INFO][108][org.springframework.web.context.support.XmlWebApplicationContext][localhost-startStop-1][2014-11-26 20:14:17 727]Refreshing Root WebApplicationContext: startup date [Wed Nov 26 20:14:17 SGT 2014]; root of context hierarchy
+[ INFO][171][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 20:14:17 790]Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+[ INFO][251][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 20:14:17 870]Loading XML bean definitions from class path resource [spring/applicationContext-security.xml]
+[ INFO][347][org.springframework.security.core.SpringSecurityCoreVersion][localhost-startStop-1][2014-11-26 20:14:17 966]You are running with Spring Security Core 3.2.2.RELEASE
+[ INFO][347][org.springframework.security.config.SecurityNamespaceHandler][localhost-startStop-1][2014-11-26 20:14:17 966]Spring Security 'config' module version is 3.2.2.RELEASE
+[ INFO][381][org.springframework.security.config.method.GlobalMethodSecurityBeanDefinitionParser][localhost-startStop-1][2014-11-26 20:14:18 000]Expressions were enabled for method security but no SecurityExpressionHandler was configured. All hasPermision() expressions will evaluate to false.
+[ INFO][440][org.springframework.security.config.http.FilterInvocationSecurityMetadataSourceParser][localhost-startStop-1][2014-11-26 20:14:18 059]Creating access control expression attribute 'permitAll' for /**
+[ INFO][458][org.springframework.security.config.http.HttpSecurityBeanDefinitionParser][localhost-startStop-1][2014-11-26 20:14:18 077]Checking sorted filter chain: [Root bean: class [org.springframework.security.web.context.SecurityContextPersistenceFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 200, Root bean: class [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 400, Root bean: class [org.springframework.security.web.authentication.logout.LogoutFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 700, Root bean: class [org.springframework.security.web.authentication.www.BasicAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1500, Root bean: class [org.springframework.security.web.savedrequest.RequestCacheAwareFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1600, Root bean: class [org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 1700, Root bean: class [org.springframework.security.web.authentication.AnonymousAuthenticationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 2000, Root bean: class [org.springframework.security.web.session.SessionManagementFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 2100, Root bean: class [org.springframework.security.web.access.ExceptionTranslationFilter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, order = 2200, <org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0>, order = 2300]
+[ INFO][567][org.springframework.beans.factory.support.DefaultListableBeanFactory][localhost-startStop-1][2014-11-26 20:14:18 186]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@f6d4253: defining beans [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler#0,org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor#0,org.springframework.security.methodSecurityMetadataSourceAdvisor,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.security.filterChains,org.springframework.security.filterChainProxy,org.springframework.security.web.DefaultSecurityFilterChain#0,org.springframework.security.web.DefaultSecurityFilterChain#1,org.springframework.security.web.DefaultSecurityFilterChain#2,org.springframework.security.web.DefaultSecurityFilterChain#3,org.springframework.security.web.DefaultSecurityFilterChain#4,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.PortResolverImpl#0,org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.CompositeSessionAuthenticationStrategy#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0,org.springframework.security.access.vote.AffirmativeBased#1,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.userDetailsServiceFactory,org.springframework.security.web.DefaultSecurityFilterChain#5,org.springframework.security.provisioning.InMemoryUserDetailsManager#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager]; root of factory hierarchy
+[ INFO][728][org.springframework.security.web.DefaultSecurityFilterChain][localhost-startStop-1][2014-11-26 20:14:18 347]Creating filter chain: Ant [pattern='/js/**'], []
+[ INFO][732][org.springframework.security.web.DefaultSecurityFilterChain][localhost-startStop-1][2014-11-26 20:14:18 351]Creating filter chain: Ant [pattern='/css/**'], []
+[ INFO][733][org.springframework.security.web.DefaultSecurityFilterChain][localhost-startStop-1][2014-11-26 20:14:18 352]Creating filter chain: Ant [pattern='/img/**'], []
+[ INFO][734][org.springframework.security.web.DefaultSecurityFilterChain][localhost-startStop-1][2014-11-26 20:14:18 353]Creating filter chain: Ant [pattern='/fonts/**'], []
+[ INFO][734][org.springframework.security.web.DefaultSecurityFilterChain][localhost-startStop-1][2014-11-26 20:14:18 353]Creating filter chain: Ant [pattern='/font-awesome/**'], []
+[ INFO][922][org.springframework.beans.factory.support.DefaultListableBeanFactory][localhost-startStop-1][2014-11-26 20:14:18 541]Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@f6d4253: defining beans [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler#0,org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor#0,org.springframework.security.methodSecurityMetadataSourceAdvisor,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.security.filterChains,org.springframework.security.filterChainProxy,org.springframework.security.web.DefaultSecurityFilterChain#0,org.springframework.security.web.DefaultSecurityFilterChain#1,org.springframework.security.web.DefaultSecurityFilterChain#2,org.springframework.security.web.DefaultSecurityFilterChain#3,org.springframework.security.web.DefaultSecurityFilterChain#4,org.springframework.security.web.PortMapperImpl#0,org.springframework.security.web.PortResolverImpl#0,org.springframework.security.config.authentication.AuthenticationManagerFactoryBean#0,org.springframework.security.authentication.ProviderManager#0,org.springframework.security.web.context.HttpSessionSecurityContextRepository#0,org.springframework.security.web.authentication.session.CompositeSessionAuthenticationStrategy#0,org.springframework.security.web.savedrequest.HttpSessionRequestCache#0,org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler#0,org.springframework.security.access.vote.AffirmativeBased#1,org.springframework.security.web.access.intercept.FilterSecurityInterceptor#0,org.springframework.security.web.access.DefaultWebInvocationPrivilegeEvaluator#0,org.springframework.security.authentication.AnonymousAuthenticationProvider#0,org.springframework.security.userDetailsServiceFactory,org.springframework.security.web.DefaultSecurityFilterChain#5,org.springframework.security.provisioning.InMemoryUserDetailsManager#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager]; root of factory hierarchy
+[ERROR][923][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 20:14:18 542]Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.filterChains': Cannot resolve reference to bean 'org.springframework.security.web.DefaultSecurityFilterChain#5' while setting bean property 'sourceList' with key [5]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.DefaultSecurityFilterChain#5': Cannot create inner bean '(inner bean)' of type [org.springframework.security.web.authentication.www.BasicAuthenticationFilter] while setting constructor argument with key [3]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#22': Cannot resolve reference to bean 'unauthorisedEntryPoint' while setting constructor argument; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'unauthorisedEntryPoint' is defined
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:326)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:107)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedList(BeanDefinitionValueResolver.java:350)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:154)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1158)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:610)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4791)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5285)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.web.DefaultSecurityFilterChain#5': Cannot create inner bean '(inner bean)' of type [org.springframework.security.web.authentication.www.BasicAuthenticationFilter] while setting constructor argument with key [3]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#22': Cannot resolve reference to bean 'unauthorisedEntryPoint' while setting constructor argument; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'unauthorisedEntryPoint' is defined
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:279)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:126)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedList(BeanDefinitionValueResolver.java:350)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:631)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:145)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1075)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:979)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:487)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:320)
+	... 26 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#22': Cannot resolve reference to bean 'unauthorisedEntryPoint' while setting constructor argument; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'unauthorisedEntryPoint' is defined
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:326)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:107)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:631)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:145)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1075)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:979)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:487)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:269)
+	... 40 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'unauthorisedEntryPoint' is defined
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:570)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:279)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:320)
+	... 48 more
+[ INFO][  0][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 20:15:21 363]Root WebApplicationContext: initialization started
+[ INFO][ 88][org.springframework.web.context.support.XmlWebApplicationContext][localhost-startStop-1][2014-11-26 20:15:21 451]Refreshing Root WebApplicationContext: startup date [Wed Nov 26 20:15:21 SGT 2014]; root of context hierarchy
+[ INFO][131][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 20:15:21 494]Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+[ INFO][218][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 20:15:21 581]Loading XML bean definitions from class path resource [spring/applicationContext-security.xml]
+[ INFO][319][org.springframework.security.core.SpringSecurityCoreVersion][localhost-startStop-1][2014-11-26 20:15:21 682]You are running with Spring Security Core 3.2.2.RELEASE
+[ INFO][319][org.springframework.security.config.SecurityNamespaceHandler][localhost-startStop-1][2014-11-26 20:15:21 682]Spring Security 'config' module version is 3.2.2.RELEASE
+[ INFO][350][org.springframework.security.config.method.GlobalMethodSecurityBeanDefinitionParser][localhost-startStop-1][2014-11-26 20:15:21 713]Expressions were enabled for method security but no SecurityExpressionHandler was configured. All hasPermision() expressions will evaluate to false.
+[ INFO][480][org.springframework.beans.factory.support.DefaultListableBeanFactory][localhost-startStop-1][2014-11-26 20:15:21 843]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2bd27776: defining beans [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler#0,org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor#0,org.springframework.security.methodSecurityMetadataSourceAdvisor,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.security.filterChains,org.springframework.security.filterChainProxy,org.springframework.security.web.DefaultSecurityFilterChain#0,org.springframework.security.web.DefaultSecurityFilterChain#1,org.springframework.security.web.DefaultSecurityFilterChain#2,org.springframework.security.web.DefaultSecurityFilterChain#3,org.springframework.security.web.DefaultSecurityFilterChain#4,org.springframework.security.provisioning.InMemoryUserDetailsManager#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager]; root of factory hierarchy
+[ INFO][656][org.springframework.security.web.DefaultSecurityFilterChain][localhost-startStop-1][2014-11-26 20:15:22 019]Creating filter chain: Ant [pattern='/js/**'], []
+[ INFO][660][org.springframework.security.web.DefaultSecurityFilterChain][localhost-startStop-1][2014-11-26 20:15:22 023]Creating filter chain: Ant [pattern='/css/**'], []
+[ INFO][661][org.springframework.security.web.DefaultSecurityFilterChain][localhost-startStop-1][2014-11-26 20:15:22 024]Creating filter chain: Ant [pattern='/img/**'], []
+[ INFO][662][org.springframework.security.web.DefaultSecurityFilterChain][localhost-startStop-1][2014-11-26 20:15:22 025]Creating filter chain: Ant [pattern='/fonts/**'], []
+[ INFO][663][org.springframework.security.web.DefaultSecurityFilterChain][localhost-startStop-1][2014-11-26 20:15:22 026]Creating filter chain: Ant [pattern='/font-awesome/**'], []
+[ INFO][785][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 20:15:22 148]Root WebApplicationContext: initialization completed in 784 ms
+[ INFO][835][org.springframework.web.servlet.DispatcherServlet][localhost-startStop-1][2014-11-26 20:15:22 198]FrameworkServlet 'dispatcher': initialization started
+[ INFO][840][org.springframework.web.context.support.XmlWebApplicationContext][localhost-startStop-1][2014-11-26 20:15:22 203]Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Nov 26 20:15:22 SGT 2014]; parent: Root WebApplicationContext
+[ INFO][841][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 20:15:22 204]Loading XML bean definitions from class path resource [spring/dispatcher-servlet.xml]
+[ INFO][1036][org.springframework.beans.factory.support.DefaultListableBeanFactory][localhost-startStop-1][2014-11-26 20:15:22 399]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2be994d3: defining beans [mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,indexController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#3,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#4,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#4,org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#5,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@2bd27776
+[ INFO][1140][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][localhost-startStop-1][2014-11-26 20:15:22 503]Mapped "{[/index],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String cc.ccbang.admin.controller.IndexController.toIndex()
+[ INFO][1140][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][localhost-startStop-1][2014-11-26 20:15:22 503]Mapped "{[/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String cc.ccbang.admin.controller.IndexController.toLogin()
+[ INFO][1691][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 20:15:23 054]Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[ INFO][1694][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 20:15:23 057]Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+[ INFO][1698][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 20:15:23 061]Mapped URL path [/img/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+[ INFO][1701][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 20:15:23 064]Mapped URL path [/fonts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+[ INFO][1703][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 20:15:23 066]Mapped URL path [/font-awesome/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#4'
+[ INFO][1711][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 20:15:23 074]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[ INFO][1737][org.springframework.web.servlet.DispatcherServlet][localhost-startStop-1][2014-11-26 20:15:23 100]FrameworkServlet 'dispatcher': initialization completed in 902 ms
+[ INFO][  0][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 21:02:28 152]Root WebApplicationContext: initialization started
+[ INFO][ 76][org.springframework.web.context.support.XmlWebApplicationContext][localhost-startStop-1][2014-11-26 21:02:28 228]Refreshing Root WebApplicationContext: startup date [Wed Nov 26 21:02:28 SGT 2014]; root of context hierarchy
+[ INFO][114][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 21:02:28 266]Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+[ INFO][185][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 21:02:28 337]Loading XML bean definitions from class path resource [spring/applicationContext-security.xml]
+[ INFO][264][org.springframework.security.core.SpringSecurityCoreVersion][localhost-startStop-1][2014-11-26 21:02:28 416]You are running with Spring Security Core 3.2.2.RELEASE
+[ INFO][264][org.springframework.security.config.SecurityNamespaceHandler][localhost-startStop-1][2014-11-26 21:02:28 416]Spring Security 'config' module version is 3.2.2.RELEASE
+[ INFO][290][org.springframework.security.config.method.GlobalMethodSecurityBeanDefinitionParser][localhost-startStop-1][2014-11-26 21:02:28 442]Expressions were enabled for method security but no SecurityExpressionHandler was configured. All hasPermision() expressions will evaluate to false.
+[ INFO][415][org.springframework.beans.factory.support.DefaultListableBeanFactory][localhost-startStop-1][2014-11-26 21:02:28 567]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@661d3f57: defining beans [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler#0,org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource#0,org.springframework.security.access.vote.AffirmativeBased#0,org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor#0,org.springframework.security.methodSecurityMetadataSourceAdvisor,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.security.filterChains,org.springframework.security.filterChainProxy,org.springframework.security.web.DefaultSecurityFilterChain#0,org.springframework.security.web.DefaultSecurityFilterChain#1,org.springframework.security.web.DefaultSecurityFilterChain#2,org.springframework.security.web.DefaultSecurityFilterChain#3,org.springframework.security.web.DefaultSecurityFilterChain#4,org.springframework.security.provisioning.InMemoryUserDetailsManager#0,org.springframework.security.authentication.dao.DaoAuthenticationProvider#0,org.springframework.security.authentication.DefaultAuthenticationEventPublisher#0,org.springframework.security.authenticationManager]; root of factory hierarchy
+[ INFO][578][org.springframework.security.web.DefaultSecurityFilterChain][localhost-startStop-1][2014-11-26 21:02:28 730]Creating filter chain: Ant [pattern='/js/**'], []
+[ INFO][584][org.springframework.security.web.DefaultSecurityFilterChain][localhost-startStop-1][2014-11-26 21:02:28 736]Creating filter chain: Ant [pattern='/css/**'], []
+[ INFO][585][org.springframework.security.web.DefaultSecurityFilterChain][localhost-startStop-1][2014-11-26 21:02:28 737]Creating filter chain: Ant [pattern='/img/**'], []
+[ INFO][587][org.springframework.security.web.DefaultSecurityFilterChain][localhost-startStop-1][2014-11-26 21:02:28 739]Creating filter chain: Ant [pattern='/fonts/**'], []
+[ INFO][588][org.springframework.security.web.DefaultSecurityFilterChain][localhost-startStop-1][2014-11-26 21:02:28 740]Creating filter chain: Ant [pattern='/font-awesome/**'], []
+[ INFO][709][org.springframework.web.context.ContextLoader][localhost-startStop-1][2014-11-26 21:02:28 861]Root WebApplicationContext: initialization completed in 708 ms
+[ INFO][752][org.springframework.web.servlet.DispatcherServlet][localhost-startStop-1][2014-11-26 21:02:28 904]FrameworkServlet 'dispatcher': initialization started
+[ INFO][755][org.springframework.web.context.support.XmlWebApplicationContext][localhost-startStop-1][2014-11-26 21:02:28 907]Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Nov 26 21:02:28 SGT 2014]; parent: Root WebApplicationContext
+[ INFO][756][org.springframework.beans.factory.xml.XmlBeanDefinitionReader][localhost-startStop-1][2014-11-26 21:02:28 908]Loading XML bean definitions from class path resource [spring/dispatcher-servlet.xml]
+[ INFO][931][org.springframework.beans.factory.support.DefaultListableBeanFactory][localhost-startStop-1][2014-11-26 21:02:29 083]Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@17fa711f: defining beans [mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,indexController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#1,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#2,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#3,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#4,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#4,org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#5,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@661d3f57
+[ INFO][1021][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][localhost-startStop-1][2014-11-26 21:02:29 173]Mapped "{[/index],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String cc.ccbang.admin.controller.IndexController.toIndex()
+[ INFO][1021][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping][localhost-startStop-1][2014-11-26 21:02:29 173]Mapped "{[/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String cc.ccbang.admin.controller.IndexController.toLogin()
+[ INFO][1497][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 21:02:29 649]Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[ INFO][1500][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 21:02:29 652]Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+[ INFO][1502][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 21:02:29 654]Mapped URL path [/img/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+[ INFO][1504][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 21:02:29 656]Mapped URL path [/fonts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+[ INFO][1508][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 21:02:29 660]Mapped URL path [/font-awesome/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#4'
+[ INFO][1516][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping][localhost-startStop-1][2014-11-26 21:02:29 668]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[ INFO][1545][org.springframework.web.servlet.DispatcherServlet][localhost-startStop-1][2014-11-26 21:02:29 697]FrameworkServlet 'dispatcher': initialization completed in 793 ms

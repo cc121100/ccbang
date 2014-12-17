@@ -1,0 +1,5 @@
+#surefire
+#Tue Dec 02 14:51:28 SGT 2014
+user.dir=/Users/tomchen/work/cc-workspace/ccbang/ccbang-server
+localRepository=/Users/tomchen/work/tools/maven_repository
+basedir=/Users/tomchen/work/cc-workspace/ccbang/ccbang-server
